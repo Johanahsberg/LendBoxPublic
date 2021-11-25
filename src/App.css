@@ -28,8 +28,8 @@ hr {
   z-index: -1;
 }
 .contentHome video{
-  width:600; 
-  height: 300px;
+  width:60vw; 
+  height: auto;
 }
 .contentHome h1{
   margin: 0px;
@@ -41,19 +41,50 @@ hr {
   font-size: 3ch;
 }
 
-
 .sideNavDiv {
   position:fixed;
   height: 100vh;
   width: 20vw;
   background-color:whitesmoke;
   z-index: 1;
+  max-width: 250px;
+}
+@media screen and (max-width:600px){
+  .sideNavDiv{
+    display: flex;
+    flex-direction: row;
+    max-width: none;
+    height: 10vh;
+    width: 100%;
+    justify-content: start;
+  }
+}
+@media screen and (max-width:600px){
+  img, .buttonDiv button{
+  height:100%;
+  width:auto;
+}
 }
 
-.buttonDiv {
-  height: 50px;
-  text-align: center;
-  width:inherit;
+@media screen and (max-width:600px){
+  ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+}
+}
+@media screen and (max-width:600px){
+  hr{
+      display: none;
+
+}
+}
+@media screen and (max-width:600px){
+  .content{
+      margin-left: 0vw;
+
+}
 }
 
 .buttonDiv button {
@@ -63,6 +94,7 @@ hr {
   background-color: transparent;
   font-size: 24px;
   color: #555555;
+  margin-bottom: 50px;
 }
 
 .buttonDiv button:hover {
@@ -74,23 +106,29 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   padding-top: 10vh;
+  padding-left: 2vw;
+
 }
 
 .contentAbout h1, h2{
-  color: #555555;
-  font-size: 40px;
+  color: #329A87;
+  font-size: 5ch;
 }
 
-.contentAbout p, li, a{
-  color: #666666;
-  font-weight: bold;
-  font-size: 18px;
+.contentAbout p, a{
+  color: #555555;
+  font-size: 2.5ch;
   line-height: 30px;
+  padding-top: 5px;
+ 
+
 }
 
 .contentAbout a{
   text-decoration: none;
+  padding-bottom: 10vh;
 }
 
 .contentAbout a:hover{

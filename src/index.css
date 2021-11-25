@@ -7,6 +7,11 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #defcfc;
+  background-image: url('./images/wave.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position-y: bottom;
 }
 
 code {

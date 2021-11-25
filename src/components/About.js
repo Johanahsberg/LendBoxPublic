@@ -9,13 +9,13 @@ const About = (props) => {
              
          </p>
          <h2>Our rules</h2>
-         <ul>
-             <li>Any person can rent a game free of charge for a maximum of 14 days.</li>
-             <li>The rented game must be returned with all the pieces included and in good condition.</li>
-             <li>If a piece is missing or the board game is defective the renter is ressponsible for finding a replacement for the missing item or board</li>
-             <li>If the renter can not replace the item she/he is liable for compensation of a pristine version of the rented board game.</li>
-             <li>If a board game is overdue, an email will be sent to the renter to remind them of returning the game as soon as possible.</li>
-        </ul>
+         
+             <p>Any person can rent a game free of charge for a maximum of 14 days.</p>
+             <p>The rented game must be returned with all the pieces included and in good condition.</p>
+             <p>If a piece is missing or the board game is defective the renter is ressponsible for finding a replacement for the missing item or board</p>
+             <p>If the renter can not replace the item she/he is liable for compensation of a pristine version of the rented board game.</p>
+             <p>If a board game is overdue, an email will be sent to the renter to remind them of returning the game as soon as possible.</p>
+        
         <h2>Contact us</h2>
         <a href = "mailto:lendboxInfo@gmail.com">Click here to send us an email!</a>
         </div>
