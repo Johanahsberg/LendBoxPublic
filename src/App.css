@@ -49,3 +49,30 @@ h1{
   color: #999999;
   font-weight: bold;
 }
+
+.contentAbout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.contentAbout h1, h2{
+  color: #555555;
+  font-size: 40px;
+}
+
+.contentAbout p, li, a{
+  color: #666666;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contentAbout a{
+  text-decoration: none;
+}
+
+.contentAbout a:hover{
+  color: #999999;
+}
