@@ -15,19 +15,39 @@ hr {
   background-color: #888888;
 }
 
-h1{
-  margin: 0px;
-}
-
 .content{
   margin-left: 20vw;
+  
 }
+.contentHome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-top: 10vh;
+  z-index: -1;
+}
+.contentHome video{
+  width:600; 
+  height: 300px;
+}
+.contentHome h1{
+  margin: 0px;
+  color: #329A87;
+  font-size: 5ch;
+}
+.contentHome p{
+  color:#3CB8B8;
+  font-size: 3ch;
+}
+
 
 .sideNavDiv {
   position:fixed;
   height: 100vh;
   width: 20vw;
   background-color:whitesmoke;
+  z-index: 1;
 }
 
 .buttonDiv {
