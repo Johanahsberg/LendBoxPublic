@@ -16,12 +16,12 @@ class SideNav extends React.Component {
             {id: 1, name: 'Home', icon: homeIcon }, 
             {id: 2, name: 'Profile', icon: profileIcon }, 
             {id: 3, name: 'Games', icon: gamesIcon }, 
-            {id: 4, name: 'About us', icon: aboutUsIcon }, 
+            {id: 4, name: 'About', icon: aboutUsIcon }, 
         ]
     }
 
     handleClick(btn){
-        console.log('hello '+btn);
+       window.location.href = `/${btn}`;
     }
     
     render() { 
