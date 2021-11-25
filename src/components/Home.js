@@ -8,7 +8,7 @@ const Home = (props) => {
         <div className="contentHome">
          <h1>Welcome to LendBox</h1> 
          <p>The free way to try board games</p>
-         <video src={video1} controls="controls" autoplay="true" />
+         <video src={video1} controls="controls" />
 
         </div>
     )

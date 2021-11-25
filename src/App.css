@@ -134,3 +134,39 @@ hr {
 .contentAbout a:hover{
   color: #999999;
 }
+
+
+
+/* ANIMATIONS JUST TO TRY!! 
+DELETE EVERYTHING UNDER HERE IF YOU HATE IT*/
+@keyframes animateWave {
+  0% {
+    transform: scale(1,0);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+.contentAbout{
+  transform-origin: bottom;
+  animation: animateWave 1500ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+@keyframes fade {
+  0%    { opacity: 0; }
+  100%  { opacity: 1; }
+}
+.contentHome {
+  animation: fade 1.5s;
+}
+
+@keyframes fontbulger {
+  0%, 100% {
+    font-size: 2ch;
+  }
+  50% {
+    font-size: 5ch;
+  }
+}
+.contentAbout a:hover{
+  animation: fontbulger 0.8s;
+}
