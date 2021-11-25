@@ -15,6 +15,14 @@ hr {
   background-color: #888888;
 }
 
+h1{
+  margin: 0px;
+}
+
+.content{
+  margin-left: 20vw;
+}
+
 .sideNavDiv {
   position:fixed;
   height: 100vh;
