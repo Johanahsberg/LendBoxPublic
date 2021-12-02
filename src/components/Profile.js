@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import LoginForm from './LoginForm'
 
 
 const Profile = (props) => {
     return (
-        <div className="contentHome">
-         <h1>Profile Page</h1>   
+        <div className="contentProfile">
+         <LoginForm/>
         </div>
     )
     
