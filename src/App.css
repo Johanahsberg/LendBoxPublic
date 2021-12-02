@@ -164,6 +164,7 @@ a {
   padding-top: 10vh;
   padding-left: 2vw; */
   padding-top: 10vh;
+  list-style: none;
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -190,7 +191,8 @@ a {
 } */
 
 .gameCard {
-  /*height: 200px;*/
+  height: 420px;
+  
   /*background: red;*/
   border: 2px solid #e7e7e7;
   border-radius: 4px;
@@ -205,11 +207,14 @@ a {
   position: relative;
   color: #5d5e5e;
   overflow: hidden;
+  background-color: rgb(198 234 234 / 27%);
+  backdrop-filter: blur(10px);
 }
 .gameThumbnail img {
   fill: #c7c4c4;
   height: 135px;
   opacity: 0.95;
+  aspect-ratio: 3/4;
   /* padding: 1.5rem; */
   display: block;
   border: 0;
@@ -231,8 +236,9 @@ a {
 .gameCategory {
   font-size: 1rem;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
+  color: #0b5656;
 }
 .contentGames p {
   padding-top: 0.1rem;
