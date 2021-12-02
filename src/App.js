@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Profile from './components/Profile';
 import Games from './components/Games';
+import RegisterForm from './components/RegisterForm';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path = "/About" component = {About}></Route>
           <Route path = "/Profile" component = {Profile}></Route>
           <Route path = "/Games" component = {Games}></Route>
+          <Route path = "/Register" component = {RegisterForm}></Route>
           <Route path = "/" component = {Home}></Route>
         </Switch>
       </div>

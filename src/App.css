@@ -17,6 +17,7 @@ hr {
 
 .content {
   margin-left: 20vw;
+  
 }
 .contentHome {
   display: flex;
@@ -26,25 +27,49 @@ hr {
   padding-top: 10vh;
   z-index: -1;
 }
-.contentHome video {
-  width: 60vw;
+
+.contentHome video{
+  width:60vw; 
   height: auto;
 }
-.contentHome h1 {
+.contentHome, .contentProfile h1{
   margin: 0px;
   color: #329a87;
   font-size: 5ch;
 }
-.contentHome p {
-  color: #3cb8b8;
+.contentHome, .contentProfile p{
+  color:#3CB8B8;
   font-size: 3ch;
+}
+
+.contentProfile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-top: 10vh;
+  z-index: -1;
+  width: 100%;
+}
+
+.contentProfile :first-child{
+  width: 35vw;
+}
+
+.contentProfile input{
+  margin-bottom: 0.5rem;
+}
+
+.contentProfile label{
+  color: #555555;
+  font-size: 2ch;
 }
 
 .sideNavDiv {
   position: fixed;
   height: 100vh;
   width: 20vw;
-  background-color: whitesmoke;
+  background-color:rgb(255, 255, 255);
   z-index: 1;
   max-width: 250px;
 }
@@ -81,6 +106,7 @@ hr {
 @media screen and (max-width: 600px) {
   .content {
     margin-left: 0vw;
+    
   }
 }
 
@@ -148,11 +174,13 @@ a {
   grid-auto-rows: minmax(200px, auto);
   grid-gap: 2rem;
 }
-/* @media screen and (max-width: 600px) {
-  .contentGames{
-    padding-top: 10vh;
-  }
-} */
+
+
+#signUpBtn{
+  margin-top: 1rem;
+  color:white;
+}
+
 
 /* .gameCards {
   display: grid;
