@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LendBoxPublic/static/css/main.945ac5a8.chunk.css",
-    "main.js": "/LendBoxPublic/static/js/main.c9804610.chunk.js",
-    "main.js.map": "/LendBoxPublic/static/js/main.c9804610.chunk.js.map",
+    "main.js": "/LendBoxPublic/static/js/main.99b8b7d1.chunk.js",
+    "main.js.map": "/LendBoxPublic/static/js/main.99b8b7d1.chunk.js.map",
     "runtime-main.js": "/LendBoxPublic/static/js/runtime-main.41acd02a.js",
     "runtime-main.js.map": "/LendBoxPublic/static/js/runtime-main.41acd02a.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/LendBoxPublic/static/css/2.a75f5a2c.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.a75f5a2c.chunk.css",
     "static/js/2.72a0b0d2.chunk.js",
     "static/css/main.945ac5a8.chunk.css",
-    "static/js/main.c9804610.chunk.js"
+    "static/js/main.99b8b7d1.chunk.js"
   ]
 }
