@@ -1,6 +1,7 @@
 import React from "react";
 import NavButton from "./NavButton";
-
+import Game from "./Game";
+import {Route, Switch, Link} from 'react-router-dom';
 import catanImg from "../images/catan.jpg";
 import pandemicImg from "../images/pandemic.jpg";
 import codenameImg from "../images/codenames.jpg";
@@ -33,16 +34,17 @@ class Games extends React.Component {
   };
 
   handleClick(btn) {
-    window.location.href = `/${btn}`;
+    //window.location.href = `/LendBoxPublic/#/${btn}`;
   }
-
+  
+  
   render() {
     return (
       <div className = "contentGames">
         <h1>Games</h1>
         <div className="gamesGrid">
             {this.state.games.map((game) => (
-              <li key={game.id}>
+              <li key={game.id}><Link to={`/${game.name }`}>
                 <article
                   onClick={() => this.handleClick(game.name)}
                   name={game.name}
@@ -57,9 +59,15 @@ class Games extends React.Component {
                     <p>{game.description}</p>
                   </div>
                 </article>
+                </Link>
               </li>
             ))}
         </div>
+        <Switch>
+          <Route path="/Catan">
+            <Game />
+          </Route>
+        </Switch>
       </div>
     );
   }
