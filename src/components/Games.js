@@ -38,27 +38,28 @@ class Games extends React.Component {
 
   render() {
     return (
-      <div className="contentGames">
-        
-          {this.state.games.map((game) => (
-            <li key={game.id}>
-              <article
-                onClick={() => this.handleClick(game.name)}
-                name={game.name}
-                picture={game.picture}
-                className="gameCard"
-                >
-                <picture class="gameThumbnail">
-                  <img src={game.picture} alt={game.name} />
-                </picture>
-                <div className="gameCard-content">
-                  <p className="gameCategory">{game.name}</p>
-                  <p>{game.description}</p>
-                </div>
-              </article>
-            </li>
-          ))}
-        
+      <div className = "contentGames">
+        <h1>Games</h1>
+        <div className="gamesGrid">
+            {this.state.games.map((game) => (
+              <li key={game.id}>
+                <article
+                  onClick={() => this.handleClick(game.name)}
+                  name={game.name}
+                  picture={game.picture}
+                  className="gameCard"
+                  >
+                  <picture class="gameThumbnail">
+                    <img src={game.picture} alt={game.name} />
+                  </picture>
+                  <div className="gameCard-content">
+                    <p className="gameCategory">{game.name}</p>
+                    <p>{game.description}</p>
+                  </div>
+                </article>
+              </li>
+            ))}
+        </div>
       </div>
     );
   }
