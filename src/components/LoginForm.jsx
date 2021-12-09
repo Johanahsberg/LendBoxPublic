@@ -16,11 +16,11 @@ class LoginForm extends Form {
 
   doSubmit = () => {
     //This is "server call"
-    window.location.href = "/";
+    window.location.href = "/LendBoxPublic/#/";
   };
 
   handleSignUp = () =>{
-    window.location.href = "/Register";
+    window.location.href = "/LendBoxPublic/#/Register";
   }
 
   render() {
