@@ -31,14 +31,20 @@ hr {
   z-index: -1;
 }
 
+.contentHome h1{
+  color: #329a87;
+  font-size: 3rem;
+}
+
 .contentHome video{
   width:50vw; 
   height: auto;
 }
-.contentHome, .contentProfile h1{
+
+.contentProfile h1{
   margin: 0px;
   color: #329a87;
-  font-size: 5ch;
+  font-size: 3rem;
 }
 
 .contentHome, .contentProfile p{
@@ -73,7 +79,7 @@ hr {
   position: fixed;
   height: 100vh;
   width: 20vw;
-  background-color:rgba(255, 255, 255, 0.7);
+  background-color:rgb(255, 255, 255, 0.7);
   z-index: 1;
   max-width: 250px;
 }
@@ -141,14 +147,15 @@ hr {
 .contentAbout h1,
 h2 {
   color: #329a87;
-  font-size: 5ch;
+  font-size: 3rem;
 }
 
 .contentAbout p,
 a {
   color: #555555;
   font-size: 2.5ch;
-  line-height: 100%;
+  line-height: 15px;
+  padding-top: 5px;
 }
 
 .contentAbout a {
@@ -162,13 +169,13 @@ a {
 }
 
 .about{
-  margin-bottom: 5vh;
+  margin-bottom: 8vh;
 }
 
 .contentGames h1{
   margin: 0px;
   color: #329a87;
-  font-size: 5ch;
+  font-size: 3rem;
   padding-left: 2vw;
   padding-top: 10vh;
 }
