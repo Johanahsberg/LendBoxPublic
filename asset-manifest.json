@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/LendBoxPublic/static/css/main.945ac5a8.chunk.css",
-    "main.js": "/LendBoxPublic/static/js/main.99b8b7d1.chunk.js",
-    "main.js.map": "/LendBoxPublic/static/js/main.99b8b7d1.chunk.js.map",
-    "runtime-main.js": "/LendBoxPublic/static/js/runtime-main.41acd02a.js",
-    "runtime-main.js.map": "/LendBoxPublic/static/js/runtime-main.41acd02a.js.map",
+    "main.js": "/LendBoxPublic/static/js/main.06ae04eb.chunk.js",
+    "main.js.map": "/LendBoxPublic/static/js/main.06ae04eb.chunk.js.map",
+    "runtime-main.js": "/LendBoxPublic/static/js/runtime-main.ed730fd5.js",
+    "runtime-main.js.map": "/LendBoxPublic/static/js/runtime-main.ed730fd5.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/LendBoxPublic/static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.72a0b0d2.chunk.js": "/LendBoxPublic/static/js/2.72a0b0d2.chunk.js",
-    "static/js/2.72a0b0d2.chunk.js.map": "/LendBoxPublic/static/js/2.72a0b0d2.chunk.js.map",
-    "static/js/3.04b053d8.chunk.js": "/LendBoxPublic/static/js/3.04b053d8.chunk.js",
-    "static/js/3.04b053d8.chunk.js.map": "/LendBoxPublic/static/js/3.04b053d8.chunk.js.map",
+    "static/js/2.6e9b7bde.chunk.js": "/LendBoxPublic/static/js/2.6e9b7bde.chunk.js",
+    "static/js/2.6e9b7bde.chunk.js.map": "/LendBoxPublic/static/js/2.6e9b7bde.chunk.js.map",
+    "static/js/3.4638131c.chunk.js": "/LendBoxPublic/static/js/3.4638131c.chunk.js",
+    "static/js/3.4638131c.chunk.js.map": "/LendBoxPublic/static/js/3.4638131c.chunk.js.map",
     "index.html": "/LendBoxPublic/index.html",
     "static/css/2.a75f5a2c.chunk.css.map": "/LendBoxPublic/static/css/2.a75f5a2c.chunk.css.map",
     "static/css/main.945ac5a8.chunk.css.map": "/LendBoxPublic/static/css/main.945ac5a8.chunk.css.map",
-    "static/js/2.72a0b0d2.chunk.js.LICENSE.txt": "/LendBoxPublic/static/js/2.72a0b0d2.chunk.js.LICENSE.txt",
+    "static/js/2.6e9b7bde.chunk.js.LICENSE.txt": "/LendBoxPublic/static/js/2.6e9b7bde.chunk.js.LICENSE.txt",
     "static/media/LendboxIntro.779b8bb1.mp4": "/LendBoxPublic/static/media/LendboxIntro.779b8bb1.mp4",
     "static/media/catan.a6eb2c3d.jpg": "/LendBoxPublic/static/media/catan.a6eb2c3d.jpg",
     "static/media/codenames.c8455262.jpg": "/LendBoxPublic/static/media/codenames.c8455262.jpg",
@@ -22,10 +22,10 @@
     "static/media/index.css": "/LendBoxPublic/static/media/wave.a8befe89.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.41acd02a.js",
+    "static/js/runtime-main.ed730fd5.js",
     "static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.72a0b0d2.chunk.js",
+    "static/js/2.6e9b7bde.chunk.js",
     "static/css/main.945ac5a8.chunk.css",
-    "static/js/main.99b8b7d1.chunk.js"
+    "static/js/main.06ae04eb.chunk.js"
   ]
 }
