@@ -21,7 +21,7 @@ class SideNav extends React.Component {
     }
 
     handleClick(btn){
-       window.location.href = `/${btn}`;
+       window.location.href = `/LendBoxPublic/#/${btn}`;
     }
     
     render() { 
