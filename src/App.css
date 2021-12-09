@@ -29,7 +29,7 @@ hr {
 }
 
 .contentHome video{
-  width:60vw; 
+  width:50vw; 
   height: auto;
 }
 .contentHome, .contentProfile h1{
@@ -37,6 +37,7 @@ hr {
   color: #329a87;
   font-size: 5ch;
 }
+
 .contentHome, .contentProfile p{
   color:#3CB8B8;
   font-size: 3ch;
@@ -128,7 +129,7 @@ hr {
 .contentAbout {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:flex-start;
   align-content: center;
   padding-top: 10vh;
   padding-left: 2vw;
@@ -144,7 +145,7 @@ h2 {
 a {
   color: #555555;
   font-size: 2.5ch;
-  line-height: 30px;
+  line-height: 15px;
   padding-top: 5px;
 }
 
@@ -154,9 +155,23 @@ a {
 }
 
 .contentAbout a:hover {
-  color: #999999;
+  color: #555555;
+  font-weight: bold;
 }
-.contentGames {
+
+.about{
+  margin-bottom: 8vh;
+}
+
+.contentGames h1{
+  margin: 0px;
+  color: #329a87;
+  font-size: 5ch;
+  padding-left: 2vw;
+  padding-top: 10vh;
+}
+
+.gamesGrid {
   /* display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,6 +180,7 @@ a {
   padding-left: 2vw; */
   padding-top: 10vh;
   list-style: none;
+  padding-left: 2vw;
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -196,7 +212,7 @@ a {
   /*background: red;*/
   border: 2px solid #e7e7e7;
   border-radius: 4px;
-  padding: 0.5rem;
+  padding: 1rem;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
   display: flex;
@@ -209,7 +225,13 @@ a {
   overflow: hidden;
   background-color: rgb(198 234 234 / 27%);
   backdrop-filter: blur(10px);
+  cursor:pointer;
 }
+
+.gameCard:hover{
+  transform: scale(1.15);
+}
+
 .gameThumbnail img {
   fill: #c7c4c4;
   height: 135px;
@@ -240,7 +262,7 @@ a {
   text-align: center;
   color: #0b5656;
 }
-.contentGames p {
+.gamesGrid p {
   padding-top: 0.1rem;
 }
 .gameCategory__01 {
@@ -298,6 +320,4 @@ DELETE EVERYTHING UNDER HERE IF YOU HATE IT*/
     font-size: 5ch;
   }
 }
-.contentAbout a:hover {
-  animation: fontbulger 0.8s;
-}
+
