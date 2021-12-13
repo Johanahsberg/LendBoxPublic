@@ -70,6 +70,7 @@ video{
   color: #329a87;
   font-size: 3rem;
   font-family: 'Montserrat';
+  margin-top:10vh;
 }
 
 .contentHome p{
@@ -154,7 +155,7 @@ video{
   background-color: transparent;
   font-size: 24px;
   color: #555555;
-  margin-bottom: 50px;
+  margin-top: 8vh;
 }
 
 .buttonDiv button:hover {
@@ -170,6 +171,8 @@ video{
   padding-top: 10vh;
   padding-left: 2vw;
 }
+
+
 
 .contentAbout h1,
 h2 {
@@ -197,7 +200,11 @@ a {
 }
 
 .section{
-  margin-bottom: 8vh;
+  margin-top: 10vh;
+}
+
+.contentGames{
+  padding-top:10vh;
 }
 
 .contentGames h1{
