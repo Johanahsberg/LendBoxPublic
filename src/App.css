@@ -30,6 +30,7 @@ hr {
   align-items: center;
   align-content: center;
   z-index: -1;
+  height: 100vh;
 }
 
 .contentHome h1{
@@ -40,12 +41,19 @@ hr {
   margin-bottom: 5vh;
 }
 
-.contentHome video{
+.videoDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  z-index: -1;
+}
+
+video{
   width:40vw; 
   height: auto;
   border-radius: 10px;
-  margin-top: 20vh;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
 }
 
 #textHome{
