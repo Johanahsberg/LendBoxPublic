@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@600;700&display=swap');
+
 body{
   background-color: #defcfc;
 }
@@ -27,29 +29,46 @@ hr {
   flex-direction: column;
   align-items: center;
   align-content: center;
-  padding-top: 10vh;
   z-index: -1;
 }
 
 .contentHome h1{
   color: #329a87;
-  font-size: 3rem;
+  font-size: 5rem;
+  font-family: 'Montserrat';
+  margin-top: 20vh;
+  margin-bottom: 5vh;
 }
 
 .contentHome video{
-  width:50vw; 
+  width:40vw; 
   height: auto;
+  border-radius: 10px;
+  margin-top: 20vh;
+  margin-bottom: 2vh;
 }
+
+#textHome{
+  color: #555555;
+  font-size: 1.6rem;
+  line-height: 100%;
+  font-family: 'Merriweather Sans';
+  margin-top: 15vh;
+}
+
 
 .contentProfile h1{
   margin: 0px;
   color: #329a87;
   font-size: 3rem;
+  font-family: 'Montserrat';
 }
 
-.contentHome, .contentProfile p{
+.contentHome p{
   color:#3CB8B8;
-  font-size: 3ch;
+  font-size: 2rem;
+  font-family: 'Merriweather Sans';
+  font-weight: bold;
 }
 
 .contentProfile{
@@ -148,6 +167,7 @@ hr {
 h2 {
   color: #329a87;
   font-size: 3rem;
+  font-family: 'Montserrat';
 }
 
 .contentAbout p,
@@ -155,6 +175,7 @@ a {
   color: #555555;
   font-size: 2.5ch;
   line-height: 100%;
+  font-family: 'Merriweather Sans';
 }
 
 .contentAbout a {
@@ -167,7 +188,7 @@ a {
   font-weight: bold;
 }
 
-.about{
+.section{
   margin-bottom: 8vh;
 }
 
@@ -177,6 +198,7 @@ a {
   font-size: 3rem;
   padding-left: 2vw;
   padding-top: 10vh;
+  font-family: 'Montserrat';
 }
 
 .gamesGrid {
@@ -204,6 +226,11 @@ a {
 #signUpBtn{
   margin-top: 1rem;
   color:white;
+}
+
+#signUpHomeBtn{
+  color:white;
+  width: 30vw;
 }
 
 
