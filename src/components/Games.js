@@ -1,7 +1,7 @@
 import React from "react";
 import NavButton from "./NavButton";
 import Game from "./Game";
-import {Route, Switch, Link} from 'react-router-dom';
+import {Route, Routes, Link} from 'react-router-dom';
 import catanImg from "../images/catan.jpg";
 import pandemicImg from "../images/pandemic.jpg";
 import codenameImg from "../images/codenames.jpg";
@@ -36,6 +36,13 @@ class Games extends React.Component {
   handleClick(btn) {
     //window.location.href = `/LendBoxPublic/#/${btn}`;
   }
+  sendProps(props){
+    <Routes>
+          <Route path={`/${props.name }`}
+          element={<Game name={props.name} description={props.description} picture={props.picture}/>} 
+         />
+        </Routes>
+  }
   
   
   render() {
@@ -44,9 +51,9 @@ class Games extends React.Component {
         <h1>Games</h1>
         <div className="gamesGrid">
             {this.state.games.map((game) => (
-              <li key={game.id}><Link to={`/${game.name }`}>
+              <li key={game.id}><Link to={`/Game/${game.name }`}>
                 <article
-                  onClick={() => this.handleClick(game.name)}
+                  onClick={() => this.sendProps(game)}
                   name={game.name}
                   picture={game.picture}
                   className="gameCard"
@@ -63,11 +70,7 @@ class Games extends React.Component {
               </li>
             ))}
         </div>
-        <Switch>
-          <Route path="/Catan">
-            <Game />
-          </Route>
-        </Switch>
+        
       </div>
     );
   }

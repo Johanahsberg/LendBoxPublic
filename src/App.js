@@ -1,5 +1,5 @@
 import './App.css';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import Header from './components/Header'
 import SideNav from './components/SideNav';
 import Home from './components/Home';
@@ -7,19 +7,22 @@ import About from './components/About';
 import Profile from './components/Profile';
 import Games from './components/Games';
 import RegisterForm from './components/RegisterForm';
+import Game from './components/Game';
 
 function App() {
   return (
     <div className="App">
       <SideNav />
       <div className = "content">
-        <Switch>
-          <Route path = "/About" component = {About}></Route>
-          <Route path = "/Profile" component = {Profile}></Route>
-          <Route path = "/Games" component = {Games}></Route>
-          <Route path = "/Register" component = {RegisterForm}></Route>
-          <Route path = "/" component = {Home}></Route>
-        </Switch>
+        <Routes>
+          <Route path = "/About" element = {<About/>}></Route>
+          <Route path = "/Profile" element = {<Profile/>}></Route>
+          <Route path = "/Games" element = {<Games/>}></Route>
+          <Route path = "/Register" element = {<RegisterForm/>}></Route>
+          <Route path = "/Game/:name" element = {<Game />}></Route>
+          <Route path = "/Home" element = {<Home/>}></Route>
+          <Route exact path = "/" element = {<Home/>}></Route>
+        </Routes>
       </div>
     </div>
   );
