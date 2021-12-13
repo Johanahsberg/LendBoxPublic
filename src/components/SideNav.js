@@ -26,7 +26,7 @@ class SideNav extends React.Component {
     
     render() { 
         return <div className="sideNavDiv">
-            <img src={logo} alt="its out brightful logo"></img>
+            <img onClick = {()=> window.location.href = "/LendBoxPublic/#/Home"} src={logo} alt="its out brightful logo"></img>
             <hr></hr>
             <ul>{this.state.buttons.map((button) => (<li key={button.id}><NavButton onClick={()=>this.handleClick(button.name)} name={button.name} icon={button.icon}/></li>))}</ul>      
         </div>
