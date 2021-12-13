@@ -1,6 +1,7 @@
 import catanImg from "../images/catan.jpg";
 import pandemicImg from "../images/pandemic.jpg";
 import codenameImg from "../images/codenames.jpg";
+import ticketImg from "../images/ticket.jpg";
 
 const gamesArray = [
     {
@@ -38,6 +39,17 @@ const gamesArray = [
       price: 299,
       genres: ["Action", "Strategic"],
       booked: false
+    }, {
+        id: 4,
+        name: "Ticket to Ride",
+        picture: ticketImg,
+        description:
+          "Build your railroad across North America to connect cities and complete tickets.",
+        minplayers: 2,
+        maxplayers: 5,
+        price: 499,
+        genres: [ "Action, ", "Strategic" ],
+        booked: false
     }
 ]
 
