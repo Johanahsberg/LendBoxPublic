@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@600;700&display=swap');
 
+
+
 body{
   background-color: #defcfc;
 }
@@ -172,7 +174,51 @@ video{
   padding-left: 2vw;
 }
 
+.contentGame {
+  display:flex;
+  flex-direction: row;
+  padding-top: 10vh;
+  padding-left: 2vw;
+}
 
+.contentGame h1 {
+    margin: 0px;
+    color: #329a87;
+    font-size: 3rem;
+    padding-top: 10vh;
+    padding-bottom:3vh;
+    font-family: 'Montserrat';
+}
+
+.contentGame p, a {
+  color: #555555;
+  font-size: 2.5ch;
+  line-height: 100%;
+  font-family: 'Merriweather Sans';
+}
+
+.gameInfo {
+  width: 50vw;
+}
+
+.gameImageDiv {
+  width:40vw;
+  display:flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.gameImage img {
+  position: relative;
+  height: 40vh;
+  opacity: 0.95;
+  aspect-ratio: 3/4;
+  /* padding: 1.5rem; */
+  display: block;
+  width:100%;
+  border: 0;
+  
+}
 
 .contentAbout h1,
 h2 {
@@ -216,6 +262,8 @@ a {
   font-family: 'Montserrat';
 }
 
+
+
 .gamesGrid {
   /* display: flex;
   flex-direction: column;
@@ -235,6 +283,10 @@ a {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-auto-rows: minmax(200px, auto);
   grid-gap: 2rem;
+}
+
+.gamesGrid a {
+  text-decoration: none;
 }
 
 
@@ -307,6 +359,7 @@ a {
 }
 .gameCategory {
   font-size: 1rem;
+  margin-bottom: 0.2rem;
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;

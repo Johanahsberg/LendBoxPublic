@@ -17,9 +17,9 @@ function App() {
         <Routes>
           <Route path = "/About" element = {<About/>}></Route>
           <Route path = "/Profile" element = {<Profile/>}></Route>
+          <Route path = "/Games/:name" element = {<Game />}></Route>
           <Route path = "/Games" element = {<Games/>}></Route>
           <Route path = "/Register" element = {<RegisterForm/>}></Route>
-          <Route path = "/Game/:name" element = {<Game />}></Route>
           <Route path = "/Home" element = {<Home/>}></Route>
           <Route exact path = "/" element = {<Home/>}></Route>
         </Routes>
