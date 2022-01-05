@@ -31,8 +31,8 @@ class LoginForm extends Form {
           {this.renderInput("email", "Email")}
           {this.renderInput("password", "Password", "password")}
           {this.renderButton("Login")}
+          <div><button id="signUpBtn" className= "btn btn-info btn-lg" onClick = {this.handleSignUp}>Sign up</button></div>
         </form>
-        <button id="signUpBtn" className= "btn btn-info btn-lg" onClick = {this.handleSignUp}>Sign up</button>
       </div>
     );
   }
