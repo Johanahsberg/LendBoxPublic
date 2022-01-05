@@ -44,14 +44,13 @@ class RegisterForm extends Form {
   render() {
     return (
       <div className = "contentProfile">
-        <h1>Sign up to LendBox</h1>
+        <h1>Sign up</h1>
         <form onSubmit={this.handleSubmit}>
           {this.renderInput("name", "Name")}
-          {this.renderInput("ssn", "Social Security Number")}
           {this.renderInput("email", "Email")}
           {this.renderInput("phoneNumber", "Phone Number")}
           {this.renderInput("password", "Password", "password")}
-          {this.renderInput("password2", "Repeat Your Password", "password")}
+          {this.renderInput("password2", "Confirm Password", "password")}
           {this.renderButton("Sign up")}
         </form>
       </div>

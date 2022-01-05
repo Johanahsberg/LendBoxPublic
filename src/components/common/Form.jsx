@@ -62,12 +62,12 @@ class Form extends React.Component {
     );
   }
 
-  renderInput(name, label, type = "text") {
+  renderInput(name, placeholder, type = "text") {
     const { data, errors } = this.state;
     return (
       <Input
         type={type}
-        label={label}
+        placeholder={placeholder}
         name={name}
         value={data[name]}
         errors={errors[name]}
