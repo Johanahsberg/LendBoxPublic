@@ -7,8 +7,12 @@ const Home = (props) => {
     return (
         <>
         <div className="contentHome">
-        <h1>Welcome to LendBox</h1> 
-         <p>The free way to try board games</p>
+        <section>
+            <h1>Welcome to LendBox</h1> 
+        </section>
+         <section>
+             <p>The free way to try board games</p>
+         </section>
          <p id = "textHome">Sign up now to rent Board Games free of charge for 14 days</p>
          <button onClick= {()=> window.location.href = "/LendBoxPublic/#/Register"} id="signUpHomeBtn" type="button" className="btn btn-info btn-lg">Sign up</button>
         </div>
